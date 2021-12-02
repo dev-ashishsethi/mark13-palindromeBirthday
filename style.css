@@ -1,0 +1,37 @@
+body{
+   margin: 0;
+   background-color: #7f7f7f;
+}
+
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex ;
+    flex-direction: column;
+    margin: auto;
+    width: 18vw;
+}
+
+#dateInput{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 2rem;
+}
+
+#btnCheck{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.5rem;
+    border-style: solid;
+    padding: 0.5rem;
+}
+
+#output{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
